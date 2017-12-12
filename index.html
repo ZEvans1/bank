@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Epicodus Bank Account</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2>Start a Bank Account</h2>
+          </div>
+          <div class="panel-body">
+            <form id="open-acc">
+                <div class="form-group">
+                  <label for="name">Enter Your Name</label>
+                  <input type="text" id="user-name" class="form-control" placeholder="Chris">
+                </div>
+                <div class="form-group">
+                  <label for="deposit">Initial Deposit Amount</label>
+                  <input type="text" id="initial-deposit" class="form-control" placeholder="1">
+                </div>
+                <button type="submit" class="btn btn-success">Show me the money!!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2>Withdraw or Deposit</h2>
+          </div>
+          <div class="panel-body">
+            <form id="transaction">
+                <div class="form-group">
+                  <label for="name">Deposit Amount</label>
+                  <input type="text" id="user-deposit" class="form-control" placeholder="1">
+                </div>
+                <div class="form-group">
+                  <label for="deposit">Withdrawal Amount</label>
+                  <input type="text" id="user-withdrawal" class="form-control" placeholder="1">
+                </div>
+                <button type="submit" class="btn btn-success">Show me the money!!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h2>Balance:</h2>
+          </div>
+          <div class="panel-body">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
