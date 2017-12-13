@@ -39,6 +39,7 @@ $(document).ready(function() {
 
     $("#user-name").val("");
     $("#initial-deposit").val("");
+    $("#outputBal").text("$" + total);
   });
 
   $("#transaction").submit(function(event) {
@@ -48,6 +49,7 @@ $(document).ready(function() {
     user.transaction(deposit, withdrawal);
     $("#user-deposit").val("");
     $("#user-withdrawal").val("");
+    $("#outputBal").text("$" + total);
   })
 
 
